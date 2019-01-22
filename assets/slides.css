@@ -5,10 +5,11 @@ html {
 }
 
 body {
-  background: #fefefe;;
+  background: #fefefe;
   color: var(--nord1);
   font-family: Courier, monospace;
   font-size: calc(.75rem + 1.75vw);
+  line-height: 160%;
   margin: 8vw;
 }
 
@@ -27,8 +28,15 @@ a:hover, a:focus {
 code, pre, .remark-code,
 .remark-inline-code
 {
-  font-size: calc(.75rem + 1.75vw);
   font-weight: 400;
+}
+code {
+  background: var(--nord6);
+  color: var(--nord9);
+  padding: 0.3rem 0.6rem;
+}
+code.remark-code {
+  background: transparent;
 }
 
 strong, b {
@@ -40,6 +48,30 @@ em, i {
 
 ol {
   padding-left: 9vw;
+}
+
+hr {
+  margin: 4rem 0 6rem;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+thead th {
+  background: var(--nord3);
+  border: none;
+  color: #fefefe;
+}
+
+td, th {
+  border: 1px solid var(--nord4);
+  line-height: 1.5;
+  padding: 1rem 2rem;
+  text-align: justify;
+  vertical-align: top;
 }
 
 .zero { color: var(--nord0); }
