@@ -24,12 +24,11 @@
 8. Mar 29:
     - C: Anthony
     - C#: Spencer
-9. Apr 05:
+9. Apr 12:
     - Objective C / Swift: Lucas
     - Ruby: Laz
-10. Apr 12:
+10. Apr 19:
     - Java: Jade
     - Kotlin: John M.
-11. Apr 19:
     - Rust / Go: Zack
 
