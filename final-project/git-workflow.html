@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSET-180: Deployment and Git Workflow</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="../assets/slides.css" />
+</head>
+<body>
+  <h1>Deployment and Git Workflow</h1>
+
+  <hr>
+
+  github: fork original, protected branch, pr process
+  travis ci: status of tests, builds, coverage
+  heroku: deployed branch
+
+  <h2>Workflow:</h2>
+
+  <p>
+    Each team will have their own code repository on GitHub. The master branch is protected, meaning it only accepts merge commits from Pull Requests. All new code for features or fixes must written on a branch, then submitted as a PR. A continuous integration tool will run tests on each PR, all tests must pass and coverage needs to stay above 80%. Each PR needs to be reviewed by at least one member of the team before it can be accepted and merged into master. Once a PR is merged, the CI tool will run a deployment to Heroku keeping the production site updated with the new features.
+  </p>
+
+  <p>
+    <strong>The client has access to this site in order to track progress, so make sure that the master branch works as intended!</strong>
+  </p>
+</body>
+</html>
